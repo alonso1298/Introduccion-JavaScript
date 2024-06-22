@@ -16,4 +16,7 @@ var _disponible; //Si pueden iniciar con guion bajo
 
 // Estilos para las variables
 var nombre_producto = 'Monitor HD'; //underscore
+var nombreProducto = 'Monitor HD'; //Camelcase
+var NombreProducto = 'Monitor HD'; //Pascal Case
+var nombreproducto = 'Monitor HD'; //lowercase (no es mu utilizado)
 
