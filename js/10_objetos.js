@@ -10,10 +10,16 @@ const producto = {
     disponible : true,
 }
 
-console.log(producto);
-console.log(producto.precio); //Para acceder a las propiedades es con un punto seguido del nombre de la propiedad
-console.log(producto.disponible);
-console.log(producto.nombreProducto);
+// console.log(producto.precio); //Para acceder a las propiedades es con un punto seguido del nombre de la propiedad
+// console.log(producto.disponible);
+// console.log(producto.nombreProducto);
+// console.log(producto["precio"]); //Este metodo no es tan usado 
 
-console.log(producto["precio"]); //Este metodo no es tan usado 
+//Agregar nuevas propiedades
+producto.imagen = 'imagen.jpg'; //Se pueden agregar propoedades que no existen en el objeto 
+
+//Eliminar propiedades
+delete producto.disponible; 
+
+console.log(producto); 
 
